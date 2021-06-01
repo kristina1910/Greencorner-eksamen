@@ -7,6 +7,8 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
+/*Header navigation*/ 
+
 header{
     grid-area: header;
     background-color: #F2F0CE;
@@ -18,6 +20,28 @@ header{
     height: 20%;
     align-items: center;
     justify-content: center;
+    grid-area: header;
+  }
+
+  nav button{
+    background-color:#F2F0CE; 
+    border-radius: 3px;
+
+  }
+  
+  a{
+    text-decoration: none;
+    color: black;
+    margin: 0 0px;
+    padding: 5px;
+    grid-area: header;
+  }
+  
+  
+  nav img{
+    width: 80px;
+    height: 100%;
+    margin-top: 20px;
     grid-area: header;
   }
 
@@ -100,8 +124,77 @@ p{
     
 }
 
-@media screen and (max-width: 1000px) {
+/*FOOTEREN*/
+footer{
+    background-color:#301818;
+    grid-area: footer;
+  }
+
+   .footer {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
+    color: #fff;
+    background-color: #301818;
+    }
     
-}
+    .footer > * {
+    flex:  1 100%;
+    }
+    
+    .l-footer {
+    margin-right: 1.25em;
+    margin-bottom: 2em;
+    }
+    
+    h2 {
+    font-weight: 400;
+    font-size: 15px;
+    }
+    
+    .footer ul {
+    list-style: none;
+    padding-left: 0;
+    }
+    
+    .footer li {
+    line-height: 2em;
+    }
+    
+    .footer a {
+    text-decoration: none;
+    }
+    
+    .r-footer {
+    display: flex;
+    flex-flow: row wrap;
+    }
+    
+    .r-footer > * {
+    flex: 1 50%;
+    margin-right: 1.25em;
+    }
+    
+    .box a {
+    color: #999;
+    }
+    
+    .h-box {
+    column-count: 2;
+    column-gap: 1.25em;
+    }
+    
+    .b-footer {
+    text-align: center;
+    color: #999;
+    padding-top: 50px;
+    }
+    
+    .l-footer p {
+    padding-right: 20%;
+    color: #999;
+    }   
 
-
+    @media screen and (max-width: 1000px) {
+    
+    }
