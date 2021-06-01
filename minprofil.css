@@ -45,6 +45,8 @@ header{
     grid-area: header;
   }
 
+  /*Header navigation slutter*/ 
+
 .signup-box{
     width: 360px; 
     height: 450px; 
@@ -55,7 +57,7 @@ header{
 
 .login-box {
 width: 360px; 
-height: 350px; 
+height: 300px; 
 margin: auto; 
 border-radius: 3px; 
 background-color: white; 
@@ -125,6 +127,7 @@ p{
 }
 
 /*FOOTEREN*/
+
 footer{
     background-color:#301818;
     grid-area: footer;
