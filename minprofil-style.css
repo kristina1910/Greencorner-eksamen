@@ -4,7 +4,8 @@ body {
     background: url(grønthandler.jpg); 
     background-size: cover; 
     background-position: center; 
-    font-family: 
+    font-family: 'Roboto', sans-serif;
+
 }
 
 /*Header navigation*/ 
